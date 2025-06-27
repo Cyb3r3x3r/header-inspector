@@ -1,0 +1,13 @@
+cat <<EOF > .gitignore
+# Binaries
+*.exe
+*.out
+*.test
+
+# Dependency directories
+vendor/
+
+# IDE and system files
+.DS_Store
+*.swp
+EOF
