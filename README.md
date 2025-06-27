@@ -40,6 +40,7 @@ go run ./cmd https://example.com
 ```
 
 #### Output
+```
 Security Headers for https://example.com:
   Content-Security-Policy:        ✗ Missing
   Strict-Transport-Security:      ✓ Found
@@ -49,3 +50,4 @@ Security Headers for https://example.com:
   Permissions-Policy:             ✗ Missing
   Access-Control-Allow-Origin:    ✓ Found
   Set-Cookie:                     ⚠ Insecure Flags
+```
